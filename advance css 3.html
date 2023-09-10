@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css advance 3</title>
+    <style>
+        /* styling div note and its contents before hover */
+        .note{height: 250px;width: 330px;border: solid black;border-radius: 5px;background-image: linear-gradient(to right,rgb(119, 119, 179),rgb(6, 6, 196));margin-left: 500px;}
+        /* styling element inside div */
+        .a,.k{display: inline;}
+        .k{float: right;padding-right: 30px;color: aliceblue;}
+        .a{float: left;padding-left: 15px;}
+        h2{padding-left: 20px;}
+        button{width: 175px;height: 45px;margin-left: 25px;background-image: linear-gradient(to right,rgb(100, 177, 100),green);color: aliceblue;border-radius: 5px;}
+/* after hover-rotatin effect */
+.note:hover{transform: rotate(-90deg);transition-duration: 5s;}
+    </style>
+</head>
+<body>
+    <div class="note">
+        <h3 class="a">#01</h3>
+        <h3 class="k">created on:02/09/23</h3>
+        <h2>important dates</h2>
+        <ul>
+            <li>january 26-
+                Republic day</li>
+            <li>August 15-independence day </li>
+            <li>october 2-gandhi jayanti</li>
+            <li>August 29-national sports day</li>
+        </ul>
+        <button>Mark as Read</button>
+    </div>
+</body>
+</html>
